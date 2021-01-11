@@ -70,7 +70,8 @@ h2{
 .character__wrapper{
   height: 100%;
   max-width: 900px;
-  margin: 26px auto;
+  margin: 26px auto 0;
+  padding-bottom: 36px;
 }
 
 

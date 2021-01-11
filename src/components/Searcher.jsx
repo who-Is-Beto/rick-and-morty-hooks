@@ -8,7 +8,7 @@ function Searcher(props) {
       type="text"
       value={props.value}
       onChange={props.onChange}
-      placeholder='Are youlooking for someone?'
+      placeholder='Are you looking for someone?'
     />
   )
 }
