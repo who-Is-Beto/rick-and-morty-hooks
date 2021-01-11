@@ -1,0 +1,81 @@
+:root{
+  --headerLightBackground: rgb(192, 192, 192);
+  --headerDarkBackground: rgb(53, 53, 53);
+  --headerDarkP: white;
+  --headerLightP: rgb(70, 70, 70);
+  --headerDarkButtonBackground: rgb(5, 129, 123);
+  --headerLightButtonBackground:  rgb(52, 230, 221);
+}
+
+
+.darkmode__header{
+  transition-duration: 0.5;
+  display: flex;
+  align-items: center;
+  height: 80px;
+  padding: 0 14px;
+  justify-content: space-between;
+  width: 100%;
+  background-color: var(--headerDarkBackground);
+}
+
+.lightmode__header{
+  transition-duration: 0.5;
+  display: flex;
+  align-items: center;
+  height: 80px;
+  padding: 0 14px;
+  justify-content: space-between;
+  width: 100%;
+  background-color: var(--headerLightBackground) ;
+}
+
+.darkmode__header p{
+  color: var(--headerDarkP);
+  letter-spacing: 3px;
+  font-size: 28px;
+}
+
+.lightmode__header p{
+  color: var(--headerLightP);
+  letter-spacing: 3px;
+  font-size: 28px;
+}
+
+.lightmode__button:hover, .darkmode__button:hover{
+  transform: scale(1.2);
+  padding: 0;
+  letter-spacing: 2px;
+}
+
+.lightmode__button{
+  cursor: pointer;
+  transition-duration: 0.5s;
+  padding: 0 12px;
+  text-transform: uppercase;
+  border-radius: 15px;
+  color: var(--headerLightP);
+  background-color: var(--headerLightButtonBackground);
+  outline: none;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  width: 130px;
+  height: 25px;
+}
+
+.darkmode__button{
+  cursor: pointer;
+  transition-duration: 0.5s;
+  padding: 0 12px;
+  text-transform: uppercase;
+  border-radius: 15px;
+  color: var(--headerDarkP);
+  background-color: var(--headerDarkButtonBackground);
+  outline: none;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  width: 130px;
+  height: 25px;
+}
