@@ -7,4 +7,4 @@ A websate where ypu can see, add to favorites and delete some Rick and Morty cha
 
 ¡Follow me on Youtube! https://www.youtube.com/channel/UCehw60DY3v3t5ez7mYIbYmQ
 
- I'd be so thankful if you see it and givme and star ⭐ [See the project by yourself](https://who-is-beto.github.io/rick-and-morty-hooks/)
+ I'd be so thankful if you see it and givme and star ⭐ [See the project by yourself](https://jovial-ptolemy-99cfb0.netlify.app/)
